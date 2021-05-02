@@ -1,0 +1,61 @@
+:root {
+    --base-hue: 41;
+    --base-saturation: 47%;
+    --base-light: 90%;
+    --base-color: hsl(var(--base-hue), var(--base-saturation), var(--base-light));
+    --focus-color: hsl(var(--base-hue), var(--base-saturation), calc(var(--base-light) - 50%));
+    --base-font-color: #121212;
+}
+
+body,
+html {
+    background-color: var(--base-color);
+    font-family: "Playfair Display", serif;
+    color: var(--base-font-color);
+}
+
+#landing > .jumbotron {
+    min-height: 100vh;
+    background-color: inherit;
+    text-align: center;
+}
+#landing-title {
+    margin-bottom: 1rem;
+}
+#landing-subtitle {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+#landing-nav {
+    margin-top: 7.5rem;
+}
+
+.landing-btn {
+    border-color: transparent;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: var(--base-font-color);
+}
+.landing-btn:hover,
+.landing-btn:not(:disabled):not(.disabled):active {
+    background-color: transparent;
+    font-style: italic;
+    color: var(--base-font-color);
+    border-color: transparent;
+}
+
+navbar {
+    background-color: var(--base-color);
+}
+
+.section-heading {
+    padding-left: 0;
+}
+
+.card {
+    background-color: transparent;
+    border: transparent;
+}

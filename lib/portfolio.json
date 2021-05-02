@@ -1,0 +1,116 @@
+{
+    "interactive": [
+        {
+            "title": "prcr bird's eye",
+            "url": "https://skarplab.github.io/prcr-birdseye/",
+            "thumbnail": "./assets/prcr-birds-eye-1.png",
+            "description": "An application for use by Raleigh Parks' planning staff to view parks and greenway areas using the oblique imagery layer provided through Microsoft's Bing Maps.",
+            "stack": [
+                {
+                    "name": "Bing Maps API",
+                    "url": "https://www.bing.com/api/maps/sdk/mapcontrol/isdk"
+                },
+                {
+                    "name": "terraformer-js",
+                    "url": "https://github.com/terraformer-js/terraformer"
+                },
+                {
+                    "name": "Turf.js",
+                    "url": "http://turfjs.org/"
+                }
+            ]
+        },
+        {
+            "title": "raleigh property query tool",
+            "url": "https://codepen.io/maptastik/full/zXdGWp",
+            "thumbnail": "./assets/ral-property-query-tool.png",
+            "description": "An application for use by Raleigh Parks' planning staff to help search for potential land acquisition opportunities.",
+            "stack": [
+                {
+                    "name": "ArcGIS API for JavaScript 4",
+                    "url": "https://developers.arcgis.com/javascript/latest/"
+                }
+            ]
+        },
+        {
+            "title": "Kentucky Population Projections",
+            "url": "https://ryan-m-cooper.com/ky_pop_projections/",
+            "thumbnail": "./assets/ky-pop-projections-map.png",
+            "description": "An interactive county-by-county look at population projections and trends in Kentucky from 2010-2040  based on data from the Kentucky State Data Center.",
+            "stack": [
+                {
+                    "name": "D3.js",
+                    "url": "https://d3js.org/"
+                },
+                {
+                    "name": "Bootstrap",
+                    "url": "https://getbootstrap.com/"
+                }
+            ]
+        },
+        {
+            "title": "Raleigh Park Amenities Finder",
+            "url": "https://raleigh-park-amenities-finder.glitch.me/",
+            "thumbnail": "./assets/ral-park-amenities-finder.png",
+            "description": "This map shows the location of all of Raleigh's parks with an option to filter based on park type and amenities.",
+            "stack": [
+                {
+                    "name": "mapbox-gl-js",
+                    "url": "https://www.mapbox.com/mapbox-gljs"
+                },
+                {
+                    "name": "Mapbox Studio",
+                    "url": "https://www.mapbox.com/mapbox-studio"
+                },
+                {
+                    "name": "Mapbox's \"Find Locations with Filters\" Template",
+                    "url": "https://labs.mapbox.com/education/impact-tools/finder-with-filters/"
+                }
+            ]
+        }
+    ],
+    "cartography": [
+        {
+            "title": "prcr bird's eye",
+            "url": "https://skarplab.github.io/prcr-birdseye/",
+            "thumbnail": "./assets/prcr-birds-eye-1.png",
+            "description": "An application for use by Raleigh Parks' planning staff to view parks and greenway areas using the oblique imagery layer provided through Microsoft's Bing Maps.",
+            "stack": [
+                {
+                    "name": "Bing Maps API",
+                    "url": "https://www.bing.com/api/maps/sdk/mapcontrol/isdk"
+                },
+                {
+                    "name": "terraformer-js",
+                    "url": "https://github.com/terraformer-js/terraformer"
+                },
+                {
+                    "name": "Turf.js",
+                    "url": "http://turfjs.org/"
+                }
+            ]
+        }
+    ],
+    "data": [
+        {
+            "title": "prcr bird's eye",
+            "url": "https://skarplab.github.io/prcr-birdseye/",
+            "thumbnail": "./assets/prcr-birds-eye-1.png",
+            "description": "An application for use by Raleigh Parks' planning staff to view parks and greenway areas using the oblique imagery layer provided through Microsoft's Bing Maps.",
+            "stack": [
+                {
+                    "name": "Bing Maps API",
+                    "url": "https://www.bing.com/api/maps/sdk/mapcontrol/isdk"
+                },
+                {
+                    "name": "terraformer-js",
+                    "url": "https://github.com/terraformer-js/terraformer"
+                },
+                {
+                    "name": "Turf.js",
+                    "url": "http://turfjs.org/"
+                }
+            ]
+        }
+    ]
+}
