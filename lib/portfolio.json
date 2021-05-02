@@ -71,22 +71,74 @@
     ],
     "cartography": [
         {
-            "title": "prcr bird's eye",
-            "url": "https://skarplab.github.io/prcr-birdseye/",
-            "thumbnail": "./assets/prcr-birds-eye-1.png",
-            "description": "An application for use by Raleigh Parks' planning staff to view parks and greenway areas using the oblique imagery layer provided through Microsoft's Bing Maps.",
+            "title": "raleigh park access",
+            "url": "./assets/a_walk_to_the_park_infographic_hires.png",
+            "thumbnail": "./assets/a_walk_to_the_park_infographic_thumb.png",
+            "description": "This longform infographic examines 10 minute walk access to parks in Raleigh, NC and proposes a social equity approach to prioritizing access improvements.",
             "stack": [
                 {
-                    "name": "Bing Maps API",
-                    "url": "https://www.bing.com/api/maps/sdk/mapcontrol/isdk"
+                    "name": "Adobe Illustrator",
+                    "url": "https://www.adobe.com/products/illustrator.html"
                 },
                 {
-                    "name": "terraformer-js",
-                    "url": "https://github.com/terraformer-js/terraformer"
+                    "name": "ArcGIS Pro",
+                    "url": "https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview"
                 },
                 {
-                    "name": "Turf.js",
-                    "url": "http://turfjs.org/"
+                    "name": "Valhalla routing engine",
+                    "url": "https://github.com/valhalla/valhalla"
+                },
+                {
+                    "name": "geopandas",
+                    "url": "https://geopandas.org/index.html"
+                },
+                {
+                    "name": "matplotlib",
+                    "url": "https://matplotlib.org/"
+                }
+            ]
+        },
+        {
+            "title": "yellow-bellied sapsucker seasonal range",
+            "url": "https://maptastik.us/30-day-map-challenge-2019/blog/day-09-yellow.html",
+            "thumbnail": "./assets/day-09-yellow.png",
+            "description": "I created this map depicting the seasonal range of the yellow-bellied sapsucker while participating in the 2019 30 Day Map Challenge. The day's theme was \"yellow\".",
+            "stack": [
+                {
+                    "name": "QGIS 3",
+                    "url": "https://qgis.org/"
+                }
+            ]
+        },
+        {
+            "title": "Old North State Bike Race Map",
+            "url": "./assets/old-north-state-race-hires.pdf",
+            "thumbnail": "./assets/old-north-state-race-thumb-1.png",
+            "description": "Created for as part of a cartography assignment, this map plots a 3 part, 21 stage, 2,100 mile fiction bike race that criss-crosses North Carolina.",
+            "stack": [
+                {
+                    "name": "ArcGIS Pro",
+                    "url": "https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview"
+                },
+                {
+                    "name": "Adobe Illustrator",
+                    "url": "https://www.adobe.com/products/illustrator.html"
+                },
+                {
+                    "name": "Adobe Photoshop",
+                    "url": "https://www.adobe.com/products/photoshop.html"
+                }
+            ]
+        },
+        {
+            "title": "Citrix Cycle Raleigh Bike Share Rides",
+            "url": "http://maptastik.us/30-day-map-challenge-2019/blog/day-02-lines.html",
+            "thumbnail": "./assets/day-2-lines.png",
+            "description": "I created this map depicting the monthly rides of Raleigh's Citrix Cycle bike share while participating in the 2019 30 Day Map Challenge. The day's theme was \"lines\".",
+            "stack": [
+                {
+                    "name": "QGIS 3",
+                    "url": "https://qgis.org/"
                 }
             ]
         }

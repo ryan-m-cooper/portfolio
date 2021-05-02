@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- JAVASCRIPT LIBRARIES -->
     <script src="./lib/jquery-3.5.1.slim.min.js"></script>
@@ -21,6 +22,28 @@
     <script src="./lib/main.js" defer></script>
 </head>
 <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">r.c.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#resume">resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">contact</a>
+            </li>
+        </div>
+        </nav>
     <div class="container">
     <section id="landing">
         <div class="jumbotron jumbotron-fluid d-flex align-items-center">
@@ -29,10 +52,10 @@
                     <div class="col-md-6">
                         <h1 class="display-1" id="landing-title">ryan cooper</h1>
                         <p class="lead" id="landing-subtitle">gis - data visualization - web development</p>
-                        <div class="row" id="landing-nav">
-                            <a href="#portfolio" role="button" class="btn btn-outline-primary btn-lg btn-block shadow-none landing-btn">portfolio</a>
-                            <a href="#resume" role="button" class="btn btn-outline-primary btn-lg btn-block shadow-none landing-btn">resume</a>
-                            <a href="#contact" role="button" class="btn btn-outline-primary btn-lg btn-block shadow-none landing-btn">contact</a>
+                        <div class="row" id="landing-social">
+                            <a href="https://twitter.com/maptastik" role="button" data-toggle="tooltip" title="find me on twitter at maptastik" class="btn btn-outline-primary btn-lg btn-block shadow-none landing-btn"><i class="bi bi-twitter"></i> @maptastik</a>
+                            <a href="https://github.com/maptastik" role="button" data-toggle="tooltip" title="find me on github at maptastik"  class="btn btn-outline-primary btn-lg btn-block shadow-none landing-btn"><i class="bi bi-github"></i> maptastik</a>
+                            <a href="https://www.youtube.com/channel/UCR2L9KVEi4Ie_8v-GkmIxgg" role="button"  data-toggle="tooltip" title="find me on youtube at ryan cooper" class="btn btn-outline-primary btn-lg btn-block shadow-none landing-btn"><i class="bi bi-youtube"></i> ryan cooper</a>
                         </div>
                     </div>
                 </div>
@@ -54,6 +77,8 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section id="resume">
     </section>
     <section id="contact">
     </section>
