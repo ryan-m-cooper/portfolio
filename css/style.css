@@ -44,7 +44,8 @@ nav {
 }
 
 .landing-btn,
-.portfolio-link-btn {
+.portfolio-link-btn,
+.contact-btn {
     border-color: transparent;
     text-decoration: underline;
     text-underline-offset: 5px;
@@ -53,7 +54,9 @@ nav {
 .landing-btn:hover,
 .landing-btn:not(:disabled):not(.disabled):active,
 .portfolio-link-btn:hover,
-.portfolio-link-btn:not(:disabled):not(.disabled):active {
+.portfolio-link-btn:not(:disabled):not(.disabled):active,
+.contact-btn:hover,
+.contact-btn:not(:disabled):not(.disabled):active  {
     background-color: transparent;
     font-style: italic;
     color: var(--base-font-color);
@@ -72,6 +75,7 @@ navbar {
     background-color: transparent;
     border: transparent;
 }
+
 .portfolio-link-btn {
     padding-left: 0;
 }

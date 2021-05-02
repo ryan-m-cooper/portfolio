@@ -145,22 +145,82 @@
     ],
     "data": [
         {
-            "title": "prcr bird's eye",
-            "url": "https://skarplab.github.io/prcr-birdseye/",
-            "thumbnail": "./assets/prcr-birds-eye-1.png",
-            "description": "An application for use by Raleigh Parks' planning staff to view parks and greenway areas using the oblique imagery layer provided through Microsoft's Bing Maps.",
+            "title": "raleigh parks level of service profiler",
+            "url": "https://ebpa-census-block-profiler.glitch.me/",
+            "thumbnail": "./assets/ebpa-profiler-1.png",
+            "description": "I developed this application as a demonstration of how the parks level of service analysis my colleagues and I had developed could be visualized and integrated with other datasets relevant to park planning.",
             "stack": [
                 {
-                    "name": "Bing Maps API",
-                    "url": "https://www.bing.com/api/maps/sdk/mapcontrol/isdk"
+                    "name": "mapbox-gl-js",
+                    "url": "https://www.mapbox.com/mapbox-gljs"
                 },
                 {
-                    "name": "terraformer-js",
-                    "url": "https://github.com/terraformer-js/terraformer"
+                    "name": "Mapbox Studio",
+                    "url": "https://www.mapbox.com/mapbox-studio"
+                },
+                {
+                    "name": "Esri Leaflet",
+                    "url": "http://esri.github.io/esri-leaflet/"
                 },
                 {
                     "name": "Turf.js",
                     "url": "http://turfjs.org/"
+                },
+                {
+                    "name": "D3.js",
+                    "url": "https://d3js.org/"
+                },
+                {
+                    "name": "chart.js",
+                    "url": "https://www.chartjs.org/"
+                },
+                {
+                    "name": "handlebars",
+                    "url": "https://handlebarsjs.com/"
+                },
+                {
+                    "name": "Materialize",
+                    "url": "https://materializecss.com/"
+                }
+            ]
+        },
+        {
+            "title": "GoRaleigh Bus Shelter Analysis",
+            "url": "https://maptastik.us/30-day-map-challenge-2019/blog/day-01-points.html#Final-Map",
+            "thumbnail": "./assets/goraleigh-bus-stop-analysis.png",
+            "description": "In working on the 2019 30 Day Map Challenge, I carried out an analysis of bus stops for the GoRaleigh bus system, particularly focusing on the status of shelters at those stops. This involved pulling together data from multiple data sources and carrying out some programmatic (Python) conflation to create a single dataset for visualization and analysis.",
+            "stack": [
+                {
+                    "name": "CARTOframes",
+                    "url": "https://carto.com/developers/cartoframes/"
+                },
+                {
+                    "name": "geopandas",
+                    "url": "https://geopandas.org/index.html"
+                },
+                {
+                    "name": "JupyterLab",
+                    "url": "https://jupyter.org/"
+                }
+            ]
+        },
+        {
+            "title": "Raleigh Playground Gap Analysis",
+            "url": "https://skarplab.github.io/playground-gap-service-analysis/",
+            "thumbnail": "./assets/playground-analysis-app-1.png",
+            "description": "The application here is a result of an analysis requested by a colleague of mine. In particular, they were interested in seeing where there might be opportunities to partner with Wake County Public Schools to fill gaps in walkable access to playgrounds throughout Raleigh.",
+            "stack": [
+                {
+                    "name": "ArcGIS API for JavaScript 4",
+                    "url": "https://developers.arcgis.com/javascript/latest/"
+                },
+                {
+                    "name": "geopandas",
+                    "url": "https://geopandas.org/index.html"
+                },
+                {
+                    "name": "Valhalla routing engine",
+                    "url": "https://github.com/valhalla/valhalla"
                 }
             ]
         }

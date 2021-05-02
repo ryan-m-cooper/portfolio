@@ -16,9 +16,7 @@
     <script src="./lib/jquery-3.5.1.slim.min.js"></script>
     <script src="./lib/popper.min.js"></script>
     <script src="./lib/bootstrap.min.js"></script>
-    <script src="./lib/handlebars-v4.7.7.js"></script>
-    <!-- <script src="./lib/navbar.js" defer></script> -->
-    <!-- <script src="./lib/portfolio.js" defer></script> -->
+    <script src="https://kwes.io/v2/kwes-script.js" defer></script>
     <script src="./lib/main.js" defer></script>
 </head>
 <body>
@@ -37,7 +35,7 @@
                 <a class="nav-link" href="#portfolio">portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#resume">resume</a>
+                <a class="nav-link" href="#resume">resumé</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#contact">contact</a>
@@ -67,20 +65,45 @@
             <div class="row">
                 <h2 class="display-3 section-heading col-sm-12">portfolio</h2>
                 <div id="interactive-portfolio-container" class="row">
-                    <h3 class="display-5 col-sm-12">interactive</h3>
+                    <h3 class="display-4 col-sm-12">interactive</h3>
                 </div>
                 <div id="cartography-portfolio-container" class="row">
-                    <h3 class="display-5 col-sm-12">cartography</h3>
+                    <h3 class="display-4 col-sm-12">cartography</h3>
                 </div>
                 <div id="data-portfolio-container" class="row">
-                    <h3 class="display-5 col-sm-12">dataviz </h3>
+                    <h3 class="display-4 col-sm-12">dataviz &amp; analysis</h3>
                 </div>
             </div>
         </div>
     </section>
     <section id="resume">
+        <div class="container">
+            <div class="row">
+                <h2 class="display-3 section-heading col-sm-12">resumé</h2>
+            </div>
+        </div>
     </section>
     <section id="contact">
+        <div class="container">
+            <div class="row">
+                <h2 class="display-3 section-heading col-sm-12">contact</h2>
+                <form action="https://kwes.io/api/foreign/forms/6QSjV9J9Sa6yuZIT4omQ" class="kwes-form">
+                    <div class="form-group">
+                        <label for="name">name</label>
+                        <input type="text" name="name" rules="required|max:255" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">email</label>
+                        <input type="email" name="email" rules="required" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="meassage">message</label>
+                        <textarea class="form-control" name="message" rules="required" id="contact-message" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn contact-btn">submit</button>
+                </form>
+            </div>
+        </div>
     </section>
 </div>
 </body>
