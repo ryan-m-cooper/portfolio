@@ -1,7 +1,7 @@
 {
     "interactive": [
         {
-            "title": "prcr bird's eye",
+            "title": "PRCR Bird's Eye",
             "url": "https://skarplab.github.io/prcr-birdseye/",
             "thumbnail": "./assets/prcr-birds-eye-1.png",
             "description": "An application for use by Raleigh Parks' planning staff to view parks and greenway areas using the oblique imagery layer provided through Microsoft's Bing Maps.",
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "title": "raleigh property query tool",
+            "title": "Raleigh Property Query Tool",
             "url": "https://codepen.io/maptastik/full/zXdGWp",
             "thumbnail": "./assets/ral-property-query-tool.png",
             "description": "An application for use by Raleigh Parks' planning staff to help search for potential land acquisition opportunities.",
@@ -39,12 +39,12 @@
             "description": "An interactive county-by-county look at population projections and trends in Kentucky from 2010-2040  based on data from the Kentucky State Data Center.",
             "stack": [
                 {
-                    "name": "D3.js",
-                    "url": "https://d3js.org/"
-                },
-                {
                     "name": "Bootstrap",
                     "url": "https://getbootstrap.com/"
+                },
+                {
+                    "name": "D3.js",
+                    "url": "https://d3js.org/"
                 }
             ]
         },
@@ -55,16 +55,12 @@
             "description": "This map shows the location of all of Raleigh's parks with an option to filter based on park type and amenities.",
             "stack": [
                 {
-                    "name": "mapbox-gl-js",
+                    "name": "Mapbox GL JS",
                     "url": "https://www.mapbox.com/mapbox-gljs"
                 },
                 {
                     "name": "Mapbox Studio",
                     "url": "https://www.mapbox.com/mapbox-studio"
-                },
-                {
-                    "name": "Mapbox's \"Find Locations with Filters\" Template",
-                    "url": "https://labs.mapbox.com/education/impact-tools/finder-with-filters/"
                 }
             ]
         }
@@ -85,16 +81,16 @@
                     "url": "https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview"
                 },
                 {
-                    "name": "Valhalla routing engine",
-                    "url": "https://github.com/valhalla/valhalla"
-                },
-                {
-                    "name": "geopandas",
+                    "name": "GeoPandas",
                     "url": "https://geopandas.org/index.html"
                 },
                 {
-                    "name": "matplotlib",
+                    "name": "Matplotlib",
                     "url": "https://matplotlib.org/"
+                },
+                {
+                    "name": "Valhalla Routing Engine",
+                    "url": "https://github.com/valhalla/valhalla"
                 }
             ]
         },
@@ -151,7 +147,23 @@
             "description": "I developed this application as a demonstration of how the parks level of service analysis my colleagues and I had developed could be visualized and integrated with other datasets relevant to park planning.",
             "stack": [
                 {
-                    "name": "mapbox-gl-js",
+                    "name": "Chart.js",
+                    "url": "https://www.chartjs.org/"
+                },
+                {
+                    "name": "D3.js",
+                    "url": "https://d3js.org/"
+                },
+                {
+                    "name": "Esri Leaflet",
+                    "url": "http://esri.github.io/esri-leaflet/"
+                },
+                {
+                    "name": "Handlebars.js",
+                    "url": "https://handlebarsjs.com/"
+                },
+                {
+                    "name": "Mapbox GL JS",
                     "url": "https://www.mapbox.com/mapbox-gljs"
                 },
                 {
@@ -159,28 +171,12 @@
                     "url": "https://www.mapbox.com/mapbox-studio"
                 },
                 {
-                    "name": "Esri Leaflet",
-                    "url": "http://esri.github.io/esri-leaflet/"
+                    "name": "MaterializeCSS",
+                    "url": "https://materializecss.com/"
                 },
                 {
                     "name": "Turf.js",
                     "url": "http://turfjs.org/"
-                },
-                {
-                    "name": "D3.js",
-                    "url": "https://d3js.org/"
-                },
-                {
-                    "name": "chart.js",
-                    "url": "https://www.chartjs.org/"
-                },
-                {
-                    "name": "handlebars",
-                    "url": "https://handlebarsjs.com/"
-                },
-                {
-                    "name": "Materialize",
-                    "url": "https://materializecss.com/"
                 }
             ]
         },
@@ -195,7 +191,7 @@
                     "url": "https://carto.com/developers/cartoframes/"
                 },
                 {
-                    "name": "geopandas",
+                    "name": "GeoPandas",
                     "url": "https://geopandas.org/index.html"
                 },
                 {
@@ -215,7 +211,7 @@
                     "url": "https://developers.arcgis.com/javascript/latest/"
                 },
                 {
-                    "name": "geopandas",
+                    "name": "GeoPandas",
                     "url": "https://geopandas.org/index.html"
                 },
                 {
