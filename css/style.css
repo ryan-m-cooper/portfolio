@@ -45,7 +45,8 @@ nav {
 
 .landing-btn,
 .portfolio-link-btn,
-.contact-btn {
+.contact-btn,
+a {
     border-color: transparent;
     text-decoration: underline;
     text-underline-offset: 5px;
@@ -56,7 +57,8 @@ nav {
 .portfolio-link-btn:hover,
 .portfolio-link-btn:not(:disabled):not(.disabled):active,
 .contact-btn:hover,
-.contact-btn:not(:disabled):not(.disabled):active  {
+.contact-btn:not(:disabled):not(.disabled):active,
+a:hover  {
     background-color: transparent;
     font-style: italic;
     color: var(--base-font-color);
