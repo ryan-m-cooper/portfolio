@@ -84,3 +84,7 @@ navbar {
 .bi-box-arrow-up-right {
     margin-left: 0.4rem;
 }
+.contact-inputs {
+    padding-left: 0;
+    padding-right: 0;
+}
